@@ -27,8 +27,7 @@
 %\crdata{0-12345-67-8/90/01}  % Allows default copyright data (0-89791-88-6/97/05) to be over-ridden - IF NEED BE.
 % --- End of Author Metadata ---
 
-\title{Alternate {\ttlit ACM} SIG Proceedings Paper in LaTeX
-Format}
+\title{Learning through play: Iterative query-seeking through partial query specification}
 %
 % You need the command \numberofauthors to handle the 'placement
 % and alignment' of the authors beneath the title.
@@ -77,14 +76,6 @@ To this end, we proposed a unifying querying language that captures a wide spect
 %\caption{A sample black and white graphic
 %that has been resized with the \texttt{includegraphics} command.}
 %\end{figure}
-The design of PQL is motivated by several desiderata, based on the analyst's needs and limitations of existing systems:
-\begin{itemize}
-	\item Flexibility: PQL is tolerant of ambiguity by design, so that partial queries can be used for jumpstarting the exploration of under-developed hypothesis.
-	\item Expressivity: PQL must support a large class of ad-hoc queries, so that analysts are not constrained when exploring the types of questions they might want to ask.
-	\item Ability to suggest possible actions: The suggestion can come in two forms: 1) Given a partial query, suggest the possible queries that are \textit{simmilar in functionality} or 2) Given a data example or resultset, suggest possible next steps or actions that reflect \textit{simmilar data relationships}.
-	\item Model takes in feedback
-	% \item Ability to generate explainations: Simmilarly explaination could be 1) by-example: data/record-level locality, or 2) by theory: membership or behaviour locality.
-\end{itemize}
 
 Contribution: 
 \begin{itemize}
@@ -98,15 +89,15 @@ IR relevance feedback
 idea that queries are hard to come up with, but it should be easy to rate something or say if it is relevant or not. 
 Dataplay has this with "want-in", "want-out example"
 \section{Motivation \& Related Works}
-\par Depsite extensive work on making database usable, there is a design tradeoff between the query expressivity and interface usability that depends on user's expertise and workload. Given that there is no one size fit all interface for query specification, PQL is designed as a middlelayer between the interface and querying engine that can take in a wide spectrum of queries of different input types and degrees of specificity that could be potentially generated from these interfaces. Here we list the potential query inputs in order of increasing specificity: 
+\par Depsite extensive work on making database usable, there is an inevitable design tradeoff between the query expressivity and interface usability that depends on user's expertise and workload\cite{Jagadish2007,Morton2014}. Given that there is no one size fit all interface for query specification, PQL is designed as a middlelayer between the interface and querying engine that can take in a wide spectrum of queries of different input types and degrees of specificity that could be potentially generated from these interfaces. Here we list the potential query inputs in order of increasing specificity: 
 \begin{itemize}
 \item Cold-start: no supervision, only given the dataset as input (viz-summarization).
-%Popular theories in data sensemaking have suggested two different symbiotic modes of operations for understanding data. Pirolli and Card’s notional model describes information processing as an ``opportunistic mix'' between top-down (from theory to data) and bottom-up (from data to theory) tasks\cite{Pirolli2005}. Similarly, the Data/Frame theory suggests that the data analysis process is a closed-loop transition between an effort to recognize or construct a frame through data or defining connections amongst the seen data\cite{Klein2006}. 
-\item \textbf{Example-based partial queries (EPQ):} EPQs are used when the users have no pre-existing idea of what he wants to do with the data. EPQs enable users to select the information that they have already seen and use that in their query. 
-\par Given an EPQ, the system infers and suggest potential explanations or queries based on the data the user provides as a query. Existing work in the area of Query-by-Examples (QBE) asks users to provide I/O examples of the query to be synthesized. However, if the user does not know what they are querying for, then they would not be able to come up with such an example. A crucial difference that separates our work and QBE is that the goal of EDPQ is to generate potential explanations or query recommendations rather than generating a query that will address a predefined question. As a result, EDPQ has a more relaxed set of constraints compared to typical scenario in the query synthesis problem, which leads to a larger search space potential queries that offer further opportunities for optimization.
-\par In addition, EPQ accepts a more easy-to-come-up-with input modalities such as visualization distributions or an existing singleton record as examples to query. The types of inputs could be largely classified in two categories: 1) Record querying: querying via non-aggregated set of tuples or visualizations as input (e.g. drag-and-drop in Zenvisage, smart drill down) or 2) Result querying: querying via transformed tuples (aggregation, top-k) input (often for inferring causality-based explainations \cite{Chapman2009,Wu2013,Roy2015})
+\item \textbf{Example-based partial queries (EPQ):} EPQs takes in data examples based on what they have already seen and use this to jumpstart their query. 
+%\par Given an EPQ, PQL infers and suggest potential explanations or queries based on the data the user provides as a query. 
+%A crucial difference that separates our work and QBE is that the goal of EDPQ is to generate potential explanations or query recommendations rather than generating a query that will address a predefined question. As a result, EDPQ has a more relaxed set of constraints compared to typical scenario in the query synthesis problem, which leads to a larger search space potential queries that offer further opportunities for optimization.
+\par Existing work in the area of Query-by-Examples (QBE) asks users to provide I/O examples of the query to be synthesized. However, if the user does not know what they are querying for, then they would not be able to come up with such an example. In addition, EPQ accepts a more easy-to-come-up-with input modalities such as visualization distributions or an existing singleton record as examples to query. The types of inputs could be largely classified in two categories: 1) Record querying: querying via non-aggregated set of tuples or visualizations as input (e.g. drag-and-drop in Zenvisage, smart drill down) or 2) Result querying: querying via transformed tuples (aggregation, top-k), often for offerring explainations\cite{Chapman2009,Wu2013,Roy2015}.
 %These example inputs to queries comes from the results of support queries. Support queries are queries that are non-essential in answering the queries, but provide auxcillary information that could help users jumpstart in their hypothesis generation. Examples of support queries includes requests to overview representatives, outliers, and other statistics, or generate different types of visualizations. These support queries can be either system generated (as part of suggestions and explainations) or defined by the user. 
-\item \textbf{Relational partial queries (RPQ):} RPQs follow the  conventional approach to querying a database where a user starts with a pre-existing idea of what he is looking for based on what he has already seen or know. However, formulating SQL queries that maps user's high-level intentions to specific query statements is challenging. 
+\item \textbf{Relational partial queries (RPQ):} RPQs follow the conventional approach to querying a database where a user starts with a pre-existing idea of what he is looking for based on what he has already seen or know. However, formulating SQL queries that maps user's high-level intentions to specific query statements is challenging. 
  %The way that analyst B approached the problem is an example of this. %For example, he may be trying to explore an attribute in more detail to test a hypothesis or he may be looking for examples of highly-performing young innovators. 
 \par Recent work in natural language querying have tried to address this by parsing adjectives and quantifiers and asking the users for additional information to resolve the ambiguity through form-based interface if needed. Simmilar to form-based or visual query builders\cite{Abouzied2012}, these systems are often based on templated queries with limited expressiveness in their linguistic and conceptual coverage, which makes it difficult for expert users to express complex queries. SnipSuggest addresses this problem by recommending relevant snippets of SQL queries based on partial queries (user’s partially typed input) via autocomplete\cite{Khoussainova2010}. However, their context-aware algorithm crucially depends on the existence of a query workload. 
 %\par Instead of approaching this problem from the perspective of ambiguity resolution, we recognize that sometimes users themselves may not have a clear cut specification of what they are asking for. As a result, we introduce the EXPLORE operator and the special value ? to increase the tolerance of ambiguity inherently in the PQL language design, then the engine takes this partial specification decide what would be the best answers or suggestions to return as an output.
@@ -119,12 +110,51 @@ these two inter-related modes of data exploration, where data or bottom up appro
 \par Given this information, analyst A was still not able to infer anything about any particular column to ask a new question, but he notice that Charlie has an incredibly low income compared to the average income. Using PQL, he can searches for other records simmilar to Charlie. He notices that all of the returned records are all young children who work part-time jobs.
 \par Analyst B skims through the records  and notices that despite Mary having more years of working experience than Fred, she is getting paid \$5000 less than him. He wants to find out whether employers are marginalizing the pay of certain individuals based on gender for the same job done. Given this hypothesis, he specifies a PQL query to find women who are in Sales and have simmilar years of experience as Mary and Fred. The PQL engine generates two support queries on this selected population to display the overview statistics and histograms of the selected subpopulation and its counterpart (i.e. men who are in Sales with simmilar years of experience).
 \section{PQL Design}
-Given the prior work and usage scenarioes in how analyst make sense of their data, PQL language design supports both example-driven and idea-driven queries to offer suggestions and explanations to the users. As shown in the usage scenario, given the same data output, different analysts may have different interpretation and approach the same dataset and problem, PQL enables analysts to seamlessly switch between the two modes of inquiry as shown in Figure \ref{architecture}. %Reflecting the two ---, PQL supports these two corresponding types of queries:  
+%Reflecting the two ---, PQL supports these two corresponding types of queries:  
+The language design of PQL is motivated by several desiderata, based on the analyst's needs and limitations of existing systems:
+\begin{enumerate}
+	\item Tolerant to ambiguity : PQL must have a model of inference that can make inference with incomplete specification, since 1) partial queries can be used for jumpstarting the exploration of under-developed hypothesis and 2) queries can be iteratively refined by the user as user gain more information about the data to update the model. 
+	\item Composability: PQL operators must be composable to increase the expressiveness of PQL in supporting a large class of ad-hoc queries, so that analysts are not constrained when exploring the types of questions they might want to ask.
+	\item Supporting both records and relations as inputs : Given the prior work of how analyst make sense of their data\cite{Pirolli2005,Klein2006}, PQL must support both bottom-up example records and top-down relational specification of queries. As shown in the usage scenario, given the same data output, different analysts may have different interpretation and approach the same dataset and problem. %PQL enables analysts to seamlessly switch between the two modes of inquiry as shown in Figure \ref{architecture}.  %Popular theories in data sensemaking have suggested two different symbiotic modes of operations for understanding data. Pirolli and Card’s notional model describes information processing as an ``opportunistic mix'' between top-down (from theory to data) and bottom-up (from data to theory) tasks\cite{Pirolli2005}. Similarly, the Data/Frame theory suggests that the data analysis process is a closed-loop transition between an effort to recognize or construct a frame through data or defining connections amongst the seen data\cite{Klein2006}. 
+	%\item Ability to suggest possible actions: The suggestion can come in two forms: 1) Given a partial query, suggest the possible queries that are \textit{simmilar in functionality} or 2) Given a data example or resultset, suggest possible next steps or actions that reflect \textit{simmilar data relationships}.
+	%\item Model takes in feedback
+	% \item Ability to generate explainations: Simmilarly explaination could be 1) by-example: data/record-level locality, or 2) by theory: membership or behaviour locality.
+\end{enumerate}
+
+PQL can be written in terms of action-operators and goal definitions. Goal definitions specifies the attributes and records that users are interested in. There are three types of goal definitions supported by PQL: 
+\begin{itemize}
+	\item Attribute-value of interest (e.g. GENDER= 'Female')
+	\item Attribute of interest (e.g. GENDER): can either be a measure or dimension. Measure of interest have a special significance in the algorithm.
+	%OBJECTIVE $M$ : Defining the measure value of interest during the analysis as M.
+	\item Examples $\{r_1 ...r_n\}$
+\end{itemize}
+ All action-operators can be decomposed as a set of goal definitions. 
+
+
+
+Action-operators takes a record ($r_i$) or relation ($A_i$) as inputs and outputs and performs some action. 
+\begin{itemize}
+	\item EXPLORE $r_i$: Given a data record, explore  
+	\item EXPLORE $\{A_1 ...A_n\}$: 
+	\item EXPLAIN $r_i$: 
+	\item EXPLAIN $\{A_1 ...A_n\}$:
+	\item LIKE $r_i$: Find records that are simmilar to $r_i$.
+	\item COMPARE $\{r_1 ...r_n\}$: Compare between records that are different 
+	\item DISTINGUISH $r_i$: Find what is the distinguishing feature of $r_i$ 
+\end{itemize}
 
 % \par Using the example table shown in Figure.\ref{edpq_example}, examples of EDPQ includes: 
 % Given a queried record, 
 % PQL engine generates \textit{support queries}.
 %the ability to work with individual record-level examples and compare  
+
+\section{Problem Formulation}
+Since the space of operators for a given input is limited, finding the best action to perform is not hard. 
+ involves finding the most suitable attribute or relations to perform the action on.
+\section{System architecture}
+
+\section{Project Scope}
+
 \bibliographystyle{abbrv}
 \bibliography{reference}  
 \end{document}
