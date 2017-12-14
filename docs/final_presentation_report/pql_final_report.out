@@ -1,0 +1,29 @@
+\BOOKMARK [1][-]{section.1}{1 Introduction}{}% 1
+\BOOKMARK [1][-]{section.2}{2 Related Works}{}% 2
+\BOOKMARK [2][-]{subsection.2.1}{2.1 General-Purposed Analytic Tools}{section.2}% 3
+\BOOKMARK [2][-]{subsection.2.2}{2.2 Data Recommendation}{section.2}% 4
+\BOOKMARK [2][-]{subsection.2.3}{2.3 Visual Query Builders}{section.2}% 5
+\BOOKMARK [1][-]{section.3}{3 Motivation}{}% 6
+\BOOKMARK [2][-]{subsection.3.1}{3.1 Application \0431: Spreadsheet Guidance}{section.3}% 7
+\BOOKMARK [2][-]{subsection.3.2}{3.2 Application \0432: NLP Data Exploration}{section.3}% 8
+\BOOKMARK [1][-]{section.4}{4 Formative Study}{}% 9
+\BOOKMARK [1][-]{section.5}{5 Discussion}{}% 10
+\BOOKMARK [2][-]{subsection.5.1}{5.1 Tolerant to ambiguity}{section.5}% 11
+\BOOKMARK [2][-]{subsection.5.2}{5.2 Workload-independent model}{section.5}% 12
+\BOOKMARK [2][-]{subsection.5.3}{5.3 Composability}{section.5}% 13
+\BOOKMARK [3][-]{subsubsection.5.3.1}{5.3.1 How common are the use of columns/rows of interest as query inputs?}{subsection.5.3}% 14
+\BOOKMARK [2][-]{subsection.5.4}{5.4 Supporting both records and relations as inputs}{section.5}% 15
+\BOOKMARK [1][-]{section.6}{6 Task Categorization and Discussion}{}% 16
+\BOOKMARK [2][-]{subsection.6.1}{6.1 Find/Explain/Compare feature differences across groups}{section.6}% 17
+\BOOKMARK [2][-]{subsection.6.2}{6.2 Ambiguous Constraint Specification}{section.6}% 18
+\BOOKMARK [2][-]{subsection.6.3}{6.3 Visual Inspection}{section.6}% 19
+\BOOKMARK [2][-]{subsection.6.4}{6.4 Infer new column via heuristic mapping}{section.6}% 20
+\BOOKMARK [2][-]{subsection.6.5}{6.5 Implicit Join}{section.6}% 21
+\BOOKMARK [2][-]{subsection.6.6}{6.6 Text Feature Discovery}{section.6}% 22
+\BOOKMARK [2][-]{subsection.6.7}{6.7 Visual Inspection \(Understanding\)}{section.6}% 23
+\BOOKMARK [2][-]{subsection.6.8}{6.8 Find similar record}{section.6}% 24
+\BOOKMARK [2][-]{subsection.6.9}{6.9 Attribute relationship/ influence}{section.6}% 25
+\BOOKMARK [2][-]{subsection.6.10}{6.10 Ranking}{section.6}% 26
+\BOOKMARK [2][-]{subsection.6.11}{6.11 Show me interesting \(Explore\)}{section.6}% 27
+\BOOKMARK [1][-]{section.7}{7 Limitations}{}% 28
+\BOOKMARK [1][-]{section.8}{8 Future Work}{}% 29
