@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  13 DEC 2017 15:59
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  14 DEC 2017 16:11
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1156,136 +1156,32 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 154.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 154.
-LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <9> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 156.
 
-
-LaTeX Warning: Citation `Khoussainova2010' on page \thepage  undefined on input
- line 156.
-
-
-LaTeX Warning: Citation `Nandi2013' on page \thepage  undefined on input line 1
-56.
-
-
-LaTeX Warning: Citation `Wu2013' on page \thepage  undefined on input line 156.
-
-
-
-LaTeX Warning: Citation `Vartak2015' on page \thepage  undefined on input line 
-156.
-
-
-LaTeX Warning: Citation `Abouzied2012' on page \thepage  undefined on input lin
-e 156.
-
-
-LaTeX Warning: Citation `Jiang2015' on page \thepage  undefined on input line 1
-56.
-
-<figures/system.png, id=119, 978.65625pt x 739.76375pt>
+<figures/system.png, id=85, 1013.7875pt x 741.77126pt>
 File: figures/system.png Graphic file (type png)
 
 <use figures/system.png>
 Package pdftex.def Info: figures/system.png used on input line 179.
-(pdftex.def)             Requested size: 240.0pt x 181.40738pt.
+(pdftex.def)             Requested size: 240.0pt x 175.59526pt.
+LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <9> not available
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 180.
 
-Underfull \hbox (badness 1424) in paragraph at lines 180--180
-\T1/ptm/b/n/9 ex-am-ple par-tial query use cases. Example-based par-tial
- []
+<figures/related_works.png, id=103, 975.645pt x 655.44875pt>
+File: figures/related_works.png Graphic file (type png)
 
-
-LaTeX Warning: Citation `Jagadish2007' on page \thepage  undefined on input lin
-e 183.
-
-
-LaTeX Warning: Citation `Morton2014' on page \thepage  undefined on input line 
-183.
-
-
-LaTeX Warning: Citation `Khoussainova2010' on page \thepage  undefined on input
- line 187.
-
-
-LaTeX Warning: Citation `Alborzi' on page \thepage  undefined on input line 187
-.
-
-
-LaTeX Warning: Citation `Pal2017' on page \thepage  undefined on input line 187
-.
-
-
-LaTeX Warning: Citation `Vartak2015' on page \thepage  undefined on input line 
-187.
-
-
-LaTeX Warning: Citation `Wongsuphasawat2017' on page \thepage  undefined on inp
-ut line 187.
-
-
-LaTeX Warning: Citation `Chapman2009' on page \thepage  undefined on input line
- 187.
-
-
-LaTeX Warning: Citation `Wu2013' on page \thepage  undefined on input line 187.
-
-
-
-LaTeX Warning: Citation `Roy2015' on page \thepage  undefined on input line 187
-.
-
-
-LaTeX Warning: Citation `Khoussainova2010' on page \thepage  undefined on input
- line 187.
-
-
-LaTeX Warning: Citation `Pal2017' on page \thepage  undefined on input line 187
-.
-
-[1{/usr/local/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
+<use figures/related_works.png>
+Package pdftex.def Info: figures/related_works.png used on input line 188.
+(pdftex.def)             Requested size: 240.0pt x 161.23143pt.
+ [1{/usr/local/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
 
 Non-PDF special ignored!
 
  <./figures/system.png>]
-
-LaTeX Warning: Citation `Wang2017a' on page \thepage  undefined on input line 1
-90.
-
-
-LaTeX Warning: Citation `Wang2017' on page \thepage  undefined on input line 19
-0.
-
-
-LaTeX Warning: Citation `Abouzied2012' on page \thepage  undefined on input lin
-e 191.
-
-
-LaTeX Warning: Citation `Jin2017' on page \thepage  undefined on input line 192
-.
-
-<figures/example2.png, id=134, 630.355pt x 279.0425pt>
-File: figures/example2.png Graphic file (type png)
-
-<use figures/example2.png>
-Package pdftex.def Info: figures/example2.png used on input line 200.
-(pdftex.def)             Requested size: 240.0pt x 106.24162pt.
-
-
-LaTeX Warning: Citation `tableauBIreport2018' on page \thepage  undefined on in
-put line 206.
-
-
-LaTeX Warning: Citation `Gao2015' on page \thepage  undefined on input line 206
-.
-
-
-LaTeX Warning: Citation `Hoque2017' on page \thepage  undefined on input line 2
-06.
-
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <8> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 208.
-LaTeX Font Info:    Try loading font information for T1+txtt on input line 208.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 196.
+LaTeX Font Info:    Try loading font information for T1+txtt on input line 196.
+
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/txfonts/t1txtt.fd
 File: t1txtt.fd 2000/12/15 v3.1
@@ -1295,102 +1191,60 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 208.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 196.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 208.
-pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
-een already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.210 \section
-              {Discussion} [2 <./figures/example2.png>]
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 196.
 
-LaTeX Warning: Citation `Morton2014' on page \thepage  undefined on input line 
-215.
-
-
-LaTeX Warning: Citation `Kamat2016' on page \thepage  undefined on input line 2
-15.
-
-
-LaTeX Warning: Citation `Khoussainova2010' on page \thepage  undefined on input
- line 215.
-
-
-LaTeX Warning: Citation `Pirolli2005' on page \thepage  undefined on input line
- 220.
-
-
-LaTeX Warning: Citation `Klein2006' on page \thepage  undefined on input line 2
-20.
-
-
-Overfull \hbox (3.824pt too wide) in paragraph at lines 224--224
+Overfull \hbox (3.824pt too wide) in paragraph at lines 197--197
 []\secfnt TASK CAT-E-GO-RIZA-TION AND DIS-CUS-
  []
 
-<figures/supported_tasks.png, id=151, 366.36874pt x 337.26pt>
+<figures/supported_tasks.png, id=141, 327.2225pt x 359.3425pt>
 File: figures/supported_tasks.png Graphic file (type png)
 
 <use figures/supported_tasks.png>
-Package pdftex.def Info: figures/supported_tasks.png used on input line 227.
-(pdftex.def)             Requested size: 120.0pt x 110.46246pt.
+Package pdftex.def Info: figures/supported_tasks.png used on input line 201.
+(pdftex.def)             Requested size: 95.99854pt x 105.41841pt.
 
-<figures/advanced_tasks.png, id=152, 354.32375pt x 399.4925pt>
+<figures/advanced_tasks.png, id=142, 592.2125pt x 703.62875pt>
 File: figures/advanced_tasks.png Graphic file (type png)
 
 <use figures/advanced_tasks.png>
-Package pdftex.def Info: figures/advanced_tasks.png used on input line 228.
-(pdftex.def)             Requested size: 120.0pt x 135.29532pt.
+Package pdftex.def Info: figures/advanced_tasks.png used on input line 202.
+(pdftex.def)             Requested size: 144.00146pt x 171.08606pt.
 
-Overfull \hbox (1.71002pt too wide) in paragraph at lines 227--229
+Overfull \hbox (1.71002pt too wide) in paragraph at lines 201--204
 [][] [] 
  []
 
 
-Overfull \hbox (2.22964pt too wide) in paragraph at lines 232--232
+Overfull \hbox (2.22964pt too wide) in paragraph at lines 207--207
 []\secfnt Find/Explain/Compare fea-ture dif-fer-ences
  []
-
-
-LaTeX Warning: Citation `Khan2017' on page \thepage  undefined on input line 23
-4.
-
-
-LaTeX Warning: Citation `Abouzied2012' on page \thepage  undefined on input lin
-e 234.
-
-
-LaTeX Warning: Citation `Wang2017' on page \thepage  undefined on input line 23
-4.
-
-
-LaTeX Warning: Citation `Wang2017a' on page \thepage  undefined on input line 2
-34.
-
-
-Overfull \hbox (3.57404pt too wide) in paragraph at lines 237--238
-[]\T1/ptm/m/n/9 (-20) DISTINGUISH $\OML/ztmcm/m/it/9 R[]$\T1/ptm/m/n/9 (-20) : 
-Find the dis-tin-guish-ing fea-ture(s) of record-
- []
-
-
-Underfull \vbox (badness 2173) has occurred while \output is active []
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.239   \end{itemize}
-                      [3 <./figures/supported_tasks.png> <./figures/advanced_ta
-sks.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 257--257
+l.210   \par
+             Suggestions 2 and 3 deals with the cases where group creation i...
+[2 <./figures/related_works.png> <./figures/supported_tasks.png> <./figures/adv
+anced_tasks.png>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
+een already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.230 ...n{Infer new column via heuristic mapping}
+                                                   [3]
+Underfull \hbox (badness 10000) in paragraph at lines 235--235
 [][][][]$\T1/txtt/bx/n/8 https : / / pandas . pydata . org / pandas-[]docs / st
 able / generated /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 257--257
+Underfull \hbox (badness 10000) in paragraph at lines 235--235
 [][][][]$\T1/txtt/bx/n/8 https : / / technet . microsoft . com / en-[]us / libr
 ary / ms191279(v =
  []
@@ -1399,44 +1253,55 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.261 \subsection
-                 {Find similar record} [4]
-No file pql_final_report.bbl.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 316.
+l.280 \par
+           Given this information, analyst A was still not able to infer any...
+[4] <figures/example2.png, id=198, 630.355pt x 279.0425pt>
+File: figures/example2.png Graphic file (type png)
+
+<use figures/example2.png>
+Package pdftex.def Info: figures/example2.png used on input line 282.
+(pdftex.def)             Requested size: 240.0pt x 106.24162pt.
+
+Overfull \hbox (8.3717pt too wide) in paragraph at lines 295--296
+[]\T1/ptm/b/n/9 Supporting records and columns as in-puts of in-ter-est: \T1/pt
+m/m/n/9 (-20) Given
+ []
+
+
+Overfull \hbox (2.21075pt too wide) in paragraph at lines 296--297
+[]\T1/ptm/b/n/9 Workload-independent model: \T1/ptm/m/n/9 (-20) The ex-is-tence
+ of query work-
+ []
+
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
+l.313 \newpage
+               [5 <./figures/example2.png>] (./pql_final_report.bbl)pdfTeX warn
+ing (ext4): destination with the same identifier (name{page.}) has been already
+ used, duplicate ignored
+<to be read again> 
+                   \relax 
 l.316 \end{document}
-                     [5
-
-]
+                     [6]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 316.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 316.
  (./pql_final_report.aux)
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 316.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 316.
-
-
-Package rerunfilecheck Warning: File `pql_final_report.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `pql_final_report.out':
-(rerunfilecheck)             Before: 4FE14D40E2125196E35F02D11138BC69;2118
-(rerunfilecheck)             After:  3BC4DB055B7D1027BD9E40AFEA15C100;2187.
-
-LaTeX Warning: There were undefined references.
-
+Package rerunfilecheck Info: File `pql_final_report.out' has not changed.
+(rerunfilecheck)             Checksum: 98D363964CCA934AF10A10A486BFE482;1295.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 316.
  ) 
 Here is how much of TeX's memory you used:
- 20414 strings out of 493117
- 368007 string characters out of 6135433
- 549048 words of memory out of 5000000
+ 20445 strings out of 493117
+ 368444 string characters out of 6135433
+ 549931 words of memory out of 5000000
  23214 multiletter control sequences out of 15000+600000
- 80095 words of font info for 214 fonts, out of 8000000 for 9000
+ 80566 words of font info for 219 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,9n,56p,1878b,401s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 62i,9n,56p,1840b,394s stack positions out of 5000i,500n,10000p,200000b,80000s
 pdfTeX warning (dest): name{Hfootnote.5} has been referenced but does not exi
 st, replaced by a fixed one
 
@@ -1461,10 +1326,10 @@ f-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2014/texmf-dist/
 fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2014/texmf-dist/fonts/type
 1/urw/times/utmr8a.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/urw/time
 s/utmri8a.pfb>
-Output written on pql_final_report.pdf (5 pages, 408154 bytes).
+Output written on pql_final_report.pdf (6 pages, 467582 bytes).
 PDF statistics:
- 223 PDF objects out of 1000 (max. 8388607)
- 198 compressed objects within 2 object streams
- 43 named destinations out of 1000 (max. 500000)
- 25345 words of extra memory for PDF output out of 29859 (max. 10000000)
+ 266 PDF objects out of 1000 (max. 8388607)
+ 237 compressed objects within 3 object streams
+ 64 named destinations out of 1000 (max. 500000)
+ 25270 words of extra memory for PDF output out of 29859 (max. 10000000)
 
